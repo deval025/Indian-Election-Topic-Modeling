@@ -8,7 +8,7 @@ By *Deval Patel, Radboud Universiteit, Nijmegen*
 ## 📄 Abstract
 This project analyzes media coverage of the 2014 and 2024 Indian general elections using Non-Negative Matrix Factorization (NMF)...
 
-[Read the full paper (PDF)](./Comparative Topic Modeling of Indian Elections.pdf)
+[Read the full paper (PDF)](./Comparative_Topic_Modeling_of_Indian_Elections.pdf)
 
 ## 📂 Project Files
 
