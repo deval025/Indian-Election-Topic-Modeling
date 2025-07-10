@@ -42,7 +42,7 @@ Articles were manually collected from The Economic Times archive at 4-day interv
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/your-repo.git](https://github.com/deval025/Indian-Election-Topic-Modeling.git)
+   git clone [https://github.com/deval025/Indian-Election-Topic-Modeling.git]
 
 Feel free to [contact me](mailto:deval9325@gmail.com) for questions.
 
