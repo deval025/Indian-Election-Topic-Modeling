@@ -12,6 +12,7 @@ Elections significantly influence a country’s political landscape, with media 
 
 ## 📂 Project Files
 
+- [Data](./Data)
 - [Jupyter Notebook 1](./2014.ipynb)
 - [Jupyter Notebook 2](./2024.ipynb)
 
