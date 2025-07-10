@@ -1,29 +1,43 @@
-# Comparative Topic Modeling of Indian Elections
+---
+## 📘 Read the Paper
+- [Download PDF](./Comparative Topic Modeling of Indian Elections.pdf)
+---
 
-Welcome to the project page for the paper:
+## 💻 Run the Code
+### Notebooks:
 
-**"Comparative Topic Modeling of Indian Elections: A Decadal Analysis of Media Coverage"**  
-By *Deval Patel, Radboud Universiteit, Nijmegen*
+- [2014 Election Topic Modeling](./2014.ipynb)
+- [2024 Election Topic Modeling](./2024.ipynb)
 
-## 📄 Abstract
-Elections significantly influence a country’s political landscape, with media playing a pivotal role in shaping public discourse. This study analyzes media coverage of the 2014 and 2024 Indian general elections using Non-Negative Matrix Factorization (NMF) to uncover thematic differences across a decade. Persistent themes like economic development were identified, alongside new issues in 2024, including unemployment, caste census, and farmers’ concerns. Validation against election manifestos and Wikipedia articles confirmed the relevance of generated topics, though certain manifesto priorities were underrepresented. The findings highlight how media narratives adapt to changing political contexts, offering insights into the interplay between media and democracy.
+---
+## 📊 Dataset Info
 
-[Read the full paper (PDF)](Comparative_Topic_Modeling_of_Indian_Elections.pdf)
+Each folder contains `.txt` files for election-related articles:
 
-## 📂 Project Files
+- `2014_data/` – 407 articles (Feb–Mar 2014)
+- `2024_data/` – 277 articles (Feb–Apr 2024)
 
-- [Data](./Data)
-- [Jupyter Notebook 1](./2014.ipynb)
-- [Jupyter Notebook 2](./2024.ipynb)
+Articles were manually collected from The Economic Times archive at 4-day intervals to ensure coverage across major events.
 
-## 🧠 Methods Used
+---
 
-- Topic Modeling with NMF
-- TF-IDF Vectorization
-- Manual Data Collection from The Economic Times
+## 🧠 Insights
 
-## 🔍 Insights
+- **Persistent Themes:** Economic development, inflation
+- **New 2024 Topics:** Unemployment, caste census, farmers' welfare
+- **Controversies:** CAA, Electoral Bonds (2024); Telangana, Gujarat riots (2014)
+- **Bias Observed:** Women's issues and healthcare underrepresented in media
 
-- Persistent themes: economic development
-- Emerging 2024 themes: unemployment, caste census, farmers' welfare
-- Gaps between media narratives and manifestos
+---
+
+## 🛠 Tools Used
+
+- Python
+- scikit-learn (NMF, TF-IDF)
+- NLTK / spaCy (text preprocessing)
+- Matplotlib / seaborn (visualizations)
+
+---
+
+Feel free to [contact me](mailto:deval9325@gmail.com) for questions.
+
