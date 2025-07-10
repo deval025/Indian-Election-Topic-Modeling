@@ -1,6 +1,9 @@
 ---
+
 ## 📘 Read the Paper
+
 - [Download PDF](./Comparative Topic Modeling of Indian Elections.pdf)
+
 ---
 
 ## 💻 Run the Code
